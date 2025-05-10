@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import { Typewriter } from 'nextjs-simple-typewriter';
 import React from 'react'
 import { BsStack } from "react-icons/bs";
@@ -6,7 +7,7 @@ export default function page() {
   return (
     <>
     <div className="grid lg:grid-cols-2 gap-20 p-3">
-      <img className='w-[80%] md:w-[60%] lg:w-[70%] mx-auto' src="/services/start.png"  alt="" />
+      <Image className='w-[80%] md:w-[60%] lg:w-[70%] mx-auto' src="/services/start.png"  alt="" />
 
       <div className="flex justify-center flex-col p-10">
 <h1 className='text-3xl font-bold text-center text-green-500'>What I Do</h1>

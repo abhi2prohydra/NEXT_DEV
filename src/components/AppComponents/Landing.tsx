@@ -4,6 +4,7 @@ import React from "react";
 import { MdMarkEmailUnread } from "react-icons/md";
 import { MdPhoneInTalk } from "react-icons/md";
 import { FaLocationArrow } from "react-icons/fa6";
+import Image from "next/image";
 
 export default function Landing() {
   return (
@@ -33,8 +34,8 @@ export default function Landing() {
             </button>
           </div>
           <div className="w-[10] lg:mx-[-2vw] lg:mt-[2vw] mb-5 flex">
-            <img className="object-cover w-[20vw]" src="/react.png" alt="" />
-            <img className="object-cover w-[20vw]" src="/next.png" alt="" />
+            <Image className="object-cover w-[20vw]" src="/react.png" alt="" />
+            <Image className="object-cover w-[20vw]" src="/next.png" alt="" />
           </div>
           <div className="grid grid-cols-2  gap-5 md:grid-cols-3">
             <div className="col-span-1 p-7">

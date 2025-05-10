@@ -61,7 +61,7 @@ export default function Footer() {
             <h1 className="text-xl text-green-500 font-semibold "> Branding & Copyright </h1>
             <div className="links mt-5 flex  flex-col gap-5">
          {/* <img src="/abnk.jpeg" className="w-[50%]" alt="" /> */}
-         <h3 className="font-semibold">Designed & Developed by "ABHISHEK SINGH"</h3>
+         <h3 className="font-semibold">Designed & Developed by &quot;ABHISHEK SINGH&quot;</h3>
          <h3>© 2025 Abhishek Singh. All Rights Reserved.</h3>
           </div>
         </div>

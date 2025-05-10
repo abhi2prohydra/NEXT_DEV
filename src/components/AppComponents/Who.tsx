@@ -13,7 +13,7 @@ export default function Who() {
       </div>
       <div className="col-span-1 p-10 lg:pt-30 ">
       <h1 className='text-3xl font-bold mb-5  text-green-500'>Who Am I ? </h1> 
-    <h3 className='text-2xl font-semibold mb-5'>I'm Abhishek Singh, a MERN Stack Developer. </h3>
+    <h3 className='text-2xl font-semibold mb-5'>I&apos;m Abhishek Singh, a MERN Stack Developer. </h3>
     <p className='tracking-widest mb-5 text-justify'>Enthusiastic MERN Stack Developer with 6 months of internship experience. Skilled in creating interactive features with React and backend services using Node.js and Express.js. A collaborative team player looking to contribute to innovative projects.</p>
 
     <hr className='mb-5'/>
